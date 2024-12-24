@@ -26,7 +26,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `email`, `pass`) VALUES
-(1, 'admin1234@gmail.com', '123');
+(1, 'adhara1234@gmail.com', '123');
 
 -- --------------------------------------------------------
 
