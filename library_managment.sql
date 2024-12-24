@@ -1,21 +1,9 @@
--- phpMyAdmin SQL Dump
--- version 5.0.3
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Apr 01, 2021 at 05:28 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.11
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+
 
 --
 -- Database: `library_managment`
@@ -92,12 +80,12 @@ CREATE TABLE `issuebook` (
 --
 
 INSERT INTO `issuebook` (`id`, `userid`, `issuename`, `issuebook`, `issuetype`, `issuedays`, `issuedate`, `issuereturn`, `fine`) VALUES
-(2, 1, 'salman', 'Rich daddy poor dady', 'student', 3, '30/03/2021', '02/04/2021', 1800),
-(3, 2, 'Randall Burch', 'Scott Gallagher', 'teacher', 4, '30/03/2021', '03/04/2021', 0),
-(6, 1, 'salman', 'Scott Gallagher', 'student', 7, '30/03/2021', '06/04/2021', 1800),
-(9, 5, 'salmannew', 'Scott Gallagher', 'teacher', 21, '30/03/2021', '20/04/2021', 0),
-(10, 1, 'salman', 'Scott Gallagher', 'student', 7, '01/04/2021', '08/04/2021', 0),
-(11, 1, 'salman', 'harry', 'student', 7, '01/04/2021', '08/04/2021', 0);
+(2, 1, 'RINKU', 'CORE JAVA', 'student', 3, '30/03/2021', '02/04/2021', 1800),
+(3, 2, 'SITHI', 'MATHEMATICS', 'teacher', 4, '30/03/2021', '03/04/2021', 0),
+(6, 1, 'RINKU', 'PYTHON IN ONE SHOT', 'student', 7, '30/03/2021', '06/04/2021', 1800),
+(9, 5, 'ADHARA', 'CORE JAVA', 'teacher', 21, '30/03/2021', '20/04/2021', 0),
+(10, 1, 'SAKSHI', 'MATHEMATICS', 'student', 7, '01/04/2021', '08/04/2021', 0),
+(11, 1, 'AYAN', 'PYTHON IN ONE SHOT', 'student', 7, '01/04/2021', '08/04/2021', 0);
 
 -- --------------------------------------------------------
 
@@ -134,10 +122,10 @@ CREATE TABLE `userdata` (
 --
 
 INSERT INTO `userdata` (`id`, `name`, `email`, `pass`, `type`) VALUES
-(1, 'salman', 'idno22382@gmail.com', '123', 'student'),
-(2, 'Randall Burch', 'voqo@mailinator.com', 'Ratione nulla dolore', 'teacher'),
-(3, 'Gabriel Daugherty', 'bipacer@mailinator.com', 'Voluptas explicabo ', 'teacher'),
-(5, 'salmannew', '1234@gmail.com', '123', 'teacher');
+(1, 'RINKU', 'rinku@gmail.com', '123', 'student'),
+(2, 'SITHI', 'sithi@gmail.com', '123', 'teacher'),
+(3, 'ADHARA', 'adhara@gmail.com', '123', 'teacher'),
+(5, 'SAKSHI', 'sakshi1234@gmail.com', '123', 'teacher');
 
 --
 -- Indexes for dumped tables
